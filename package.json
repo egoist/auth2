@@ -1,0 +1,32 @@
+{
+  "name": "auth2",
+  "version": "0.0.0",
+  "description": "Easy and Secure auth strategy within a SPA.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "build": "rollup -c -o auth2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egoist/auth2.git"
+  },
+  "keywords": [
+    "auth"
+  ],
+  "author": "EGOIST <0x142857@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egoist/auth2/issues"
+  },
+  "homepage": "https://github.com/egoist/auth2#readme",
+  "devDependencies": {
+    "ava": "^0.7.0",
+    "rollup": "^0.21.2",
+    "rollup-plugin-babel": "^2.2.0"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.0",
+    "localdb": "^0.2.12"
+  }
+}
